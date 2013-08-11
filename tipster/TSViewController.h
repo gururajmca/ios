@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TSViewController : UIViewController
+// Define all the UI elements which are used in the program
+@property   (nonatomic, weak) IBOutlet  UITextField *billTextField;
+@property   (nonatomic, weak) IBOutlet  UILabel *tipLabel;
+@property   (nonatomic, weak) IBOutlet  UILabel *total;
+@property   (nonatomic, weak) IBOutlet UISegmentedControl *tipController;
 
 @end
